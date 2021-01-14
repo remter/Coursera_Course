@@ -1,0 +1,1 @@
+This is my starting Readme for my HTML, CSS, and Javascript cource from coursera.
