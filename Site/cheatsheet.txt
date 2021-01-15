@@ -4,6 +4,11 @@ always start HTML documents with <!DOCTYPE html>
 Validator for HTML:   https://validator.w3.org/#validate_by_input
 HTML language setting: <html lang="en">
 
+Block level and inline are not officially part of HTML5
+<div> is a Block level element and cannot be put inside a inline element
+<span> is an inline element
 
-
-
+A tag is used to link
+A tag title is used for screen readers.
+A tag is a block level tag and an inline tag.
+A tag needs href inside to link.
