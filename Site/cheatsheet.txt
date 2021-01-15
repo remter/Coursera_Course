@@ -12,3 +12,9 @@ A tag is used to link
 A tag title is used for screen readers.
 A tag is a block level tag and an inline tag.
 A tag needs href inside to link.
+adding a target element with "_blank" into the A tag will make sure that the new page is opened on another tab.
+A tag can be used for linking within the page using href="#Name" and using  id=Name or you can use <a name ="Name">
+
+
+image starts with <img and then src is the source (can be a link to a webpage ). Width and height are the buffers for the image. Alt is used for screen readers. See example below
+<img src="myimage.jpg" width="number" height="number" alt= "Screen reader text">
