@@ -52,7 +52,6 @@ body{
 h2{
     font-weight: bold;
     font-size: 1.5em;
-    text-align: center;
     padding: 12px;
 }
 
@@ -98,11 +97,11 @@ body div h1{
 }
 @media (max-width: 767px){
     .navbar-brand {
-        padding-top: 15px;
+        /* padding-top: 15px; */
         height: 15px;
       }
       .navbar-brand h1 { /* Restaurant name */
-        padding-top: 0px ;
+        /* padding-top: 0px ; */
         font-size: 5vw; /* 1vw = 1% of viewport width */
       }
       #collapsable-nav a { /* Collapsed nav menu text */
