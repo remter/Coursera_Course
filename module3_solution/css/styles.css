@@ -1,16 +1,17 @@
 
 body{
-    font-size: 20px;
+    font-size: 24px;
     color: #000000;
-    background-color: lightskyblue;
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 
 }
 #header-nav{
-    background-color: grey;
+    background-color: #1445afd3;
 }
 .navbar-brand h1{
-    font-size: 1.5em;
+    font-size: 2em;
     color:#000000;
     font-weight:bold;
     text-align: left;
@@ -22,16 +23,107 @@ body{
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+  }
+#nav-list{
+    text-align: center;
 }
-button.navbar-toggle{
-    background-color: red;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
-    
-}
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color:  #000000;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: red;
+  }
+
 .navbar-header button.navbar-toggle {
     clear: both;
-    margin-top: -30px;
-  }
- 
+    margin-top: -20px;
+    /* height: 6vw;
+    width: 6vw */
+  } 
+  .navbar-header button.navbar-toggle .icon-bar{
+    position:relative;
+    /* height: .5vw;
+    width: 3vw */
+  } 
+h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 12px;
+}
+
+#bulk-text {
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+#bulk-text h1{
+    font-weight: bold;
+    font-size:1.2em;
+}
+
+#bulk-text div{
+    font-size:.9em;
+    border-bottom: 50px;
+    margin-bottom: 50px;
+    background-color: gray;
+}
+
+
+#header-nav .container-fluid  {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    background-color:transparent;
+}
+body div h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+@media (min-width: 768px){
+    #navbar-toggle{
+        display:none;       
+    }
+    #nav-list{
+        display:none;
+    }
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+@media (max-width: 767px){
+    .navbar-brand {
+        padding-top: 15px;
+        height: 15px;
+      }
+      .navbar-brand h1 { /* Restaurant name */
+        padding-top: 0px ;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+      }
+      #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+      }
+      #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+        vertical-align: center;
+      }
+    
+    body{
+        font-size: 15px;
+    }
+    #bulk-text {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 400px){
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 5px;
+      }
+}
